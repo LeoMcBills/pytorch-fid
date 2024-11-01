@@ -54,6 +54,7 @@ The choices are:
 - 768:  pre-aux classifier features
 - 2048: final average pooling features (this is the default)
 
+
 ## Generating a compatible `.npz` archive from a dataset
 A frequent use case will be to compare multiple models against an original dataset.
 To save training multiple times on the original dataset, there is also the ability to generate a compatible `.npz` archive from a dataset. This is done using any combination of the previously mentioned arguments with the addition of the `--save-stats` flag. For example:
